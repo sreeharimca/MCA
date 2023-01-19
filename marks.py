@@ -1,0 +1,11 @@
+name=input("Enter the name of student")
+total=int(input("enter total marks"))
+m1=int(input("enter the first mark"))
+m2=int(input("enter the second mark"))
+m3=int(input("enter the third mark"))
+m4=int(input("enter the forth mark"))
+m5=int(input("enter the fifth mark"))
+sum=m1+m2+m3+m4+m5
+percent=(sum/total)*100
+print("sum=",sum)
+print("percentage=",percent)
